@@ -1,12 +1,12 @@
 import os
 
-ROOT_PATH = reduce(lambda x, y: x + '/'+ y, os.path.abspath(__file__).split('/')[:-2])
 
-TEMPLATE_LOADERS = (
-    'django.template.loaders.app_directories.Loader',
-)
-TEMPLATE_DIRS = (os.path.join(ROOT_PATH, 'templates/'),)
+DEBUG = True
+INSTALLED_APPS = ('photoshop',)
+ROOT_PATH = reduce(lambda x, y: x + '/'+ y, os.path.abspath(__file__).split('/')[:-2])
 ROOT_URLCONF = 'photoshop.urls'
+TEMPLATE_LOADERS = ('django.template.loaders.app_directories.Loader',)
+TEMPLATE_DIRS = (os.path.join(ROOT_PATH, 'templates/'),)
 
 # APP SPECIFIC
 

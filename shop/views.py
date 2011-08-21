@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
@@ -11,7 +12,7 @@ def upload(request, template_name='shop/upload.html'):
         form = shop_forms.PhotoForm(request.POST, request.FILES)
         if form.is_valid():
             result = shop_forms.handle_photo(request.FILES['photo'])
-            result = result or DEFAULT_ITEM
+            result = result or settings.DEFAULT_ITEM
             return HttpResponseRedirect(result)                
     else:
         form = shop_forms.PhotoForm()
