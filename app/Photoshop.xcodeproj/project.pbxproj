@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5269B3001400448C008A2828 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269B2FF1400448C008A2828 /* UIKit.framework */; };
+		5269B3021400448C008A2828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269B3011400448C008A2828 /* Foundation.framework */; };
+		5269B3041400448C008A2828 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269B3031400448C008A2828 /* CoreGraphics.framework */; };
+		5269B30A1400448C008A2828 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5269B3081400448C008A2828 /* InfoPlist.strings */; };
+		5269B30D1400448C008A2828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269B30C1400448C008A2828 /* main.m */; };
+		5269B3101400448C008A2828 /* PhotoshopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269B30F1400448C008A2828 /* PhotoshopAppDelegate.m */; };
+		5269B3131400448C008A2828 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5269B3111400448C008A2828 /* MainWindow.xib */; };
+		5269B3161400448C008A2828 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269B3151400448C008A2828 /* FirstViewController.m */; };
+		5269B3191400448C008A2828 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269B3181400448C008A2828 /* SecondViewController.m */; };
+		5269B31C1400448C008A2828 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5269B31A1400448C008A2828 /* FirstView.xib */; };
+		5269B31F1400448C008A2828 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5269B31D1400448C008A2828 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5269B2FB1400448C008A2828 /* Photoshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5269B2FF1400448C008A2828 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5269B3011400448C008A2828 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5269B3031400448C008A2828 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5269B3071400448C008A2828 /* Photoshop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photoshop-Info.plist"; sourceTree = "<group>"; };
+		5269B3091400448C008A2828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5269B30B1400448C008A2828 /* Photoshop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photoshop-Prefix.pch"; sourceTree = "<group>"; };
+		5269B30C1400448C008A2828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5269B30E1400448C008A2828 /* PhotoshopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoshopAppDelegate.h; sourceTree = "<group>"; };
+		5269B30F1400448C008A2828 /* PhotoshopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoshopAppDelegate.m; sourceTree = "<group>"; };
+		5269B3121400448C008A2828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5269B3141400448C008A2828 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5269B3151400448C008A2828 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5269B3171400448C008A2828 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5269B3181400448C008A2828 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5269B31B1400448C008A2828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		5269B31E1400448C008A2828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5269B2F81400448B008A2828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5269B3001400448C008A2828 /* UIKit.framework in Frameworks */,
+				5269B3021400448C008A2828 /* Foundation.framework in Frameworks */,
+				5269B3041400448C008A2828 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5269B2F01400448B008A2828 = {
+			isa = PBXGroup;
+			children = (
+				5269B3051400448C008A2828 /* Photoshop */,
+				5269B2FE1400448C008A2828 /* Frameworks */,
+				5269B2FC1400448C008A2828 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5269B2FC1400448C008A2828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5269B2FB1400448C008A2828 /* Photoshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5269B2FE1400448C008A2828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5269B2FF1400448C008A2828 /* UIKit.framework */,
+				5269B3011400448C008A2828 /* Foundation.framework */,
+				5269B3031400448C008A2828 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5269B3051400448C008A2828 /* Photoshop */ = {
+			isa = PBXGroup;
+			children = (
+				5269B30E1400448C008A2828 /* PhotoshopAppDelegate.h */,
+				5269B30F1400448C008A2828 /* PhotoshopAppDelegate.m */,
+				5269B3111400448C008A2828 /* MainWindow.xib */,
+				5269B3141400448C008A2828 /* FirstViewController.h */,
+				5269B3151400448C008A2828 /* FirstViewController.m */,
+				5269B3171400448C008A2828 /* SecondViewController.h */,
+				5269B3181400448C008A2828 /* SecondViewController.m */,
+				5269B31A1400448C008A2828 /* FirstView.xib */,
+				5269B31D1400448C008A2828 /* SecondView.xib */,
+				5269B3061400448C008A2828 /* Supporting Files */,
+			);
+			path = Photoshop;
+			sourceTree = "<group>";
+		};
+		5269B3061400448C008A2828 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5269B3071400448C008A2828 /* Photoshop-Info.plist */,
+				5269B3081400448C008A2828 /* InfoPlist.strings */,
+				5269B30B1400448C008A2828 /* Photoshop-Prefix.pch */,
+				5269B30C1400448C008A2828 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5269B2FA1400448B008A2828 /* Photoshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5269B3221400448C008A2828 /* Build configuration list for PBXNativeTarget "Photoshop" */;
+			buildPhases = (
+				5269B2F71400448B008A2828 /* Sources */,
+				5269B2F81400448B008A2828 /* Frameworks */,
+				5269B2F91400448B008A2828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photoshop;
+			productName = Photoshop;
+			productReference = 5269B2FB1400448C008A2828 /* Photoshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5269B2F21400448B008A2828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Handi Mobility";
+			};
+			buildConfigurationList = 5269B2F51400448B008A2828 /* Build configuration list for PBXProject "Photoshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5269B2F01400448B008A2828;
+			productRefGroup = 5269B2FC1400448C008A2828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5269B2FA1400448B008A2828 /* Photoshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5269B2F91400448B008A2828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5269B30A1400448C008A2828 /* InfoPlist.strings in Resources */,
+				5269B3131400448C008A2828 /* MainWindow.xib in Resources */,
+				5269B31C1400448C008A2828 /* FirstView.xib in Resources */,
+				5269B31F1400448C008A2828 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5269B2F71400448B008A2828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5269B30D1400448C008A2828 /* main.m in Sources */,
+				5269B3101400448C008A2828 /* PhotoshopAppDelegate.m in Sources */,
+				5269B3161400448C008A2828 /* FirstViewController.m in Sources */,
+				5269B3191400448C008A2828 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5269B3081400448C008A2828 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5269B3091400448C008A2828 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5269B3111400448C008A2828 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5269B3121400448C008A2828 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5269B31A1400448C008A2828 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5269B31B1400448C008A2828 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		5269B31D1400448C008A2828 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5269B31E1400448C008A2828 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5269B3201400448C008A2828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5269B3211400448C008A2828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5269B3231400448C008A2828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photoshop/Photoshop-Prefix.pch";
+				INFOPLIST_FILE = "Photoshop/Photoshop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5269B3241400448C008A2828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photoshop/Photoshop-Prefix.pch";
+				INFOPLIST_FILE = "Photoshop/Photoshop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5269B2F51400448B008A2828 /* Build configuration list for PBXProject "Photoshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5269B3201400448C008A2828 /* Debug */,
+				5269B3211400448C008A2828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5269B3221400448C008A2828 /* Build configuration list for PBXNativeTarget "Photoshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5269B3231400448C008A2828 /* Debug */,
+				5269B3241400448C008A2828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5269B2F21400448B008A2828 /* Project object */;
+}
